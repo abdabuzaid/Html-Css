@@ -1,0 +1,167 @@
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body{
+  font-family: sans-serif;
+}
+.container{
+  width: 1170px;
+  margin: auto;
+}
+/* Start Header */
+header{
+  height: 535px;
+  background: url('../images/slide1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+header span{
+display: block;
+color:#86C8B4;
+font-size: 60px;
+font-weight: bold;
+line-height: 535px;
+margin-left: 30%;
+}
+/* End Header */
+
+/* Start next marathon */
+.next_marathon{
+  padding-top: 50px;
+  margin-right: 50px;
+}
+
+.next_marathon h1{
+  text-align: center;
+  font-size: 90px;
+  color:#86C8B4;
+}
+.next_marathon .time_marathon{
+  margin-top: 30px;
+  margin-left: 30%;
+}
+
+.next_marathon .time_marathon span{
+  display: inline-block;
+  text-align: center;
+  margin:0 20px;
+  width: 70px;
+  height: 60px;
+  background-color: #86C8B4;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  color:#FFF;
+}
+
+.next_marathon .time_marathon button{
+  display: block;
+  margin-top: 40px;
+  margin-left: 16%;
+  background: none;
+  border: none;
+  outline: none;
+  width: 186px;
+  background-color:#86C8B4;
+  padding: 15px;
+  color:#FFF;
+  text-transform: uppercase;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.next_marathon .time_marathon button:hover{
+  background-color: #FFF;
+  border: 2px solid #86C8B4;
+  border-radius: 15px;
+  color:#86C8B4;
+  transition: all 1s linear;
+}
+/* End next marathon */
+
+/* Start Info */
+.main_info{
+  padding-top: 50px;
+  margin-top: 50px;
+  overflow: hidden;
+}
+
+.main_info .sub_info{
+  width: 31.333%;
+  margin-left: 1%;
+  margin-right: 1%;
+  float:left;
+  background-color: #F9F9F9;
+  height: 500px;
+}
+
+.main_info .sub_info .head{
+  width:100%;
+  height: 100px;
+  background-color: #CCE8DF;
+  color: #FFF;
+  font-size: 30px;
+  text-align: center;
+  border: 2px solid #F9F9F9;
+}
+
+.main_info .sub_info .image{
+  margin: 20px 0 0 27px;
+}
+
+.main_info .sub_info  .a{
+  margin:40px 0 0 41%;
+}
+
+.main_info .sub_info  .a a{
+  text-decoration: none;
+  color:#86C8B4;
+  font-weight: bold;
+}
+
+.main_info .sub_info  .a a:hover{
+  text-decoration: underline;
+}
+/* End Info */
+
+/* Start Images */
+.images{
+  padding-top: 50px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.images h1{
+  font-size: 50px;
+  color:#86C8B4;
+}
+
+.images .img_images img{
+  margin: 5px 5px;
+}
+/* End Iamges */
+
+/* Start Footer */
+footer{
+  padding-top: 50px;
+  margin-top: 50px;
+  background-color: #86C8B4;
+  height: 380px;
+  text-align: center;
+}
+
+footer h1{
+  color: #FFF;
+  font-size: 80px;
+}
+
+footer p{
+  line-height: 1.6;
+  color: #FFF;
+  font-size: 22px;
+}
+
+
+/* End Footer */

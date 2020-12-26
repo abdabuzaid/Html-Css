@@ -1,0 +1,237 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  }
+  body{
+    font-family: sans-serif;
+}
+
+  .container{
+    width:1170px;
+    margin: auto;
+  }
+/* Start Header */
+  header{
+    background: url('../images/marathon1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    position: relative;
+  }
+
+  header .overlay{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+ header .overlay:hover{
+    background-color: rgba(0, 0,100, 0.5);
+    transition: all 1s linear;
+  }
+/* End Header */
+
+
+/* Start distance */
+.distance{
+  padding-top: 50px;
+  margin-top: 50px;
+  overflow: hidden;
+}
+
+.distance h1{
+  margin-left: 1%;
+  margin-bottom: 80px;
+}
+
+.distance .choose_distance{
+  float: left;
+  width: 31.3333%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.distance .choose_distance p{
+  line-height: 1.6;
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+
+.distance .choose_distance button{
+  background: none;
+  border: none;
+  outline: none;
+  padding: 15px;
+  border: 2px solid #000;
+  text-align: center;
+  width: 200px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.distance .choose_distance button:hover{
+  background-color: #000;
+  color:#FFF;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 1s linear;
+}
+/* End distance */
+
+/* Start agenda */
+.agenda{
+  padding-top: 50px;
+  margin-top: 50px;
+  overflow: hidden;
+}
+.agenda .event_agenda{
+  float: left;
+  width: 48%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.agenda .event_agenda p{
+  margin-top: 60px;
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+.agenda .event_agenda span{
+  display: inline-block;
+  margin-top: 32px;
+  margin-right: 50px;
+  margin-bottom: 100px;
+  font-weight: bold;
+}
+/* End agenda */
+
+/* Start about_marathon */
+.about_marathon{
+  padding-top: 50px;
+  margin-top: 50px;
+  background-color: #3649E6;
+  text-align: center;
+  color: #FFF;
+  height: 1030px;
+}
+
+.about_marathon p{
+  line-height: 1.6;
+  font-size: 18px;
+  margin-top: 60px;
+}
+.about_marathon button{
+  background: none;
+  border: none;
+  outline: none;
+  color: #FFF;
+  border: 2px solid #FFF;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+
+.about_marathon .image img{
+  margin-top: 90px;
+  width:900px;
+  height: 500px;
+}
+
+.about_marathon nav ul{
+list-style: none;
+text-align: center;
+margin: 50px 0;
+}
+.about_marathon nav ul li{
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  border: 1px solid #FFF;
+  border-radius: 50%;
+}
+.about_marathon nav ul li.active{
+  background-color: #FFF;
+}
+
+ .about_marathon nav ul li:hover{
+  background-color: #FFF;
+}
+/* End about_marathon */
+
+
+/* Start Images */
+.image_marathon{
+  padding-top: 50px;
+  margin-top: 50px;
+  overflow: hidden;
+}
+
+.image_marathon .image_ma{
+  float: left;
+  width: 48%;
+  margin-left: 1%;
+  margin-right: 1%;
+
+}
+
+.image_marathon .image_ma img{
+  width: 565px;
+  height: 500px;
+}
+
+.image_marathon .image_ma:last-of-type{
+  margin-top: 20px;
+  position: relative;
+  left: 22%;
+}
+/* End Images */
+
+/* Start Info */
+.info{
+  padding-top: 50px;
+  margin-top: 50px;
+}
+
+.info p{
+  font-weight: bold;
+  color:#3649E6;
+  font-size: 100px;
+  line-height: 1.2;
+}
+/* End Info */
+
+
+/* Start Footer */
+footer{
+  padding-top: 50px;
+  margin-top: 50px;
+  background-color: #3649E6;
+  color: #FFF;
+  height: 300px;
+}
+footer p{
+  line-height: 1.8;
+  font-size: 18px;
+}
+
+footer button{
+  background: none;
+  border: none;
+  outline: none;
+  color: #FFF;
+  border: 2px solid #FFF;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  text-transform: uppercase;
+  width: 150px;
+}
+footer button a{
+text-decoration: none;
+color:#FFF;
+}
+/* End Footer */

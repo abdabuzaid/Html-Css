@@ -1,0 +1,102 @@
+*{
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+body{
+background:url('../images/image.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+font-family:sans-serif;
+}
+
+.logo-box{
+  width: 365px;
+  height: 500px;
+  background-color: #000;
+  margin: auto;
+  position: relative;
+  top:150px;
+  border-radius: 15px;
+  border: 2px solid red;
+}
+
+.logo-box header{
+  width: 100%;
+  height: 50px;
+}
+
+.logo-box header img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid #FFF;
+  position: absolute;
+  left:37%;
+  top:-9%;
+}
+
+.logo-box h2{
+  color:#FFF;
+  text-align: center;
+  margin-top: 70px;
+  padding-bottom: 5px;
+  border-bottom: 5px solid red;
+  position: absolute;
+  left: 41%;
+  font-weight: 900;
+}
+
+.logo-box form{
+position: absolute;
+top: 40%;
+left: 22%;
+}
+
+.logo-box form input{
+  margin:10px 0;
+  border: none;
+  outline: none;
+  background: none;
+  color: red;
+  width: 200px;
+  padding: 10px;
+  border-bottom: 2px solid red;
+}
+
+.logo-box form button{
+  border: none;
+  outline: none;
+  background: none;
+  position: absolute;
+  top: 104%;
+  right: 29%;
+  background-color: red;
+  width: 68%;
+  border-radius: 10px;
+  margin: 34px 0 0;
+  padding: 10px;
+}
+
+.logo-box form button:hover{
+  box-shadow: 5px 5px 15px 5px red;
+  cursor: pointer;
+  transition: all .5s linear;
+}
+
+.logo-box form button a{
+  text-decoration: none;
+  color: #FFF;
+  font-weight: bold;
+}
+
+.logo-box p{
+  color:#AAA;
+  position: absolute;
+  top:80%;
+  left: 25%;
+}
+
+.logo-box p:hover{
+  cursor: pointer;
+}
